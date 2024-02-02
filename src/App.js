@@ -1,9 +1,12 @@
 import "./App.css";
+import TabTest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/cutom-model-popup/modal-test";
 import QrCodeGenerator from "./components/qr-code-generator";
+import ScrollIndicator from "./components/scroll-indicator";
 // import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
-import LightDarkMode from "./light-dark-mode";
+// import LightDarkMode from "./light-dark-mode";
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
       {/* <QrCodeGenerator /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* <TabTest /> */}
+      <ModalTest />
     </div>
   );
 }
