@@ -1,4 +1,6 @@
 import "./App.css";
+import BookComponent from "./components/BookComponent";
+
 import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/cutom-model-popup/modal-test";
 import QrCodeGenerator from "./components/qr-code-generator";
@@ -17,7 +19,9 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabTest /> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      {/* <BookContainer /> */}
+      <BookComponent />
     </div>
   );
 }
